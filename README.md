@@ -1,4 +1,4 @@
-# flutter_custom_widget
+# Flutter - Custom Widgets
 
 A new Flutter application.
 
