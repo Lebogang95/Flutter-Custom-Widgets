@@ -1,16 +1,7 @@
 # Flutter - Custom Widgets
 
-A new Flutter application.
+A demo Flutter application made by Lebogang which demonstrates how to create your own custom Flutter widgets to reuse across your app. This promotes code reusability & a cleaner project with maintable classes. Not only that but it improves on development time. This is due to the fact that you will spend less time creating many instances of the same widget.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+No setup required for this project as it only contains views. Just pull the project from the stable branch and run to your Android/iOS device.
