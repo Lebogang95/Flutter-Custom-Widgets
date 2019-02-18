@@ -1,22 +1,24 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_custom_widget/custom_widgets/rating_star.dart';
+import 'package:flutter_custom_widget/utils/const.dart';
 
-class TopCard extends StatefulWidget {
+class LargeCard extends StatefulWidget {
 
   final String image;
   final String title;
 
-  TopCard({Key key, this.image, this.title}) : super(key:key);
+  LargeCard({Key key, this.image, this.title}) : super(key:key);
 
   @override
-  State createState() => _BottomCard(image: image, title: title);
+  State createState() => _LargeCard(image: image, title: title);
 
 }
 
-class _BottomCard extends State<TopCard> {
+class _LargeCard extends State<LargeCard> {
 
-  _BottomCard( {Key key,this.image, this.title});
+  _LargeCard( {Key key,this.image, this.title});
 
   final String image;
   final String title;
@@ -72,11 +74,7 @@ class _BottomCard extends State<TopCard> {
           child: Row(
             children: <Widget>[
 
-              Icon(
-                  Icons.star,
-                color: Colors.yellow,
-                size: 14.0,
-              ),
+              RatingStar(hexColor: starColorYellow,),
 
               Icon(
                 Icons.star,

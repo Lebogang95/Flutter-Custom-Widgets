@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_custom_widget/custom_widgets/main2.dart';
+import 'package:flutter_custom_widget/home/buy_ticket.dart';
 
 class CustomDrawer extends StatefulWidget {
 
@@ -104,7 +104,7 @@ class _CustomDrawer extends State<CustomDrawer> {
                             ),
                             onTap: () {
                               Navigator.of(context)
-                                  .pushAndRemoveUntil(MaterialPageRoute(builder: (context) => MyApp2()), (Route<dynamic> route) => false);
+                                  .pushAndRemoveUntil(MaterialPageRoute(builder: (context) => BuyTicketPage()), (Route<dynamic> route) => false);
                             },
                           ),
 

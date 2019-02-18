@@ -1,37 +1,21 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_custom_widget/custom_widgets/bottom_card.dart';
-import 'package:flutter_custom_widget/custom_widgets/custom_drawer2.dart';
-import 'package:flutter_custom_widget/custom_widgets/top_card.dart';
+import 'package:flutter_custom_widget/custom_widgets/small_card.dart';
+import 'package:flutter_custom_widget/custom_widgets/custom_drawer.dart';
+import 'package:flutter_custom_widget/custom_widgets/large_card.dart';
 
 var _scaffoldKey = new GlobalKey<ScaffoldState>();
 
-void main2() => runApp(MyApp2());
-
-class MyApp2 extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-        canvasColor: Colors.transparent,
-        primarySwatch: Colors.blue,
-      ),
-      debugShowCheckedModeBanner: false,
-      home: MyHomePage2(title: ''),
-    );
-  }
-}
-
-class MyHomePage2 extends StatefulWidget {
-  MyHomePage2({Key key, this.title}) : super(key: key);
+class BuyTicketPage extends StatefulWidget {
+  BuyTicketPage({Key key, this.title}) : super(key: key);
   final String title;
 
   @override
   _MyHomePageState2 createState() => _MyHomePageState2();
 }
 
-class _MyHomePageState2 extends State<MyHomePage2> {
+class _MyHomePageState2 extends State<BuyTicketPage> {
 
   @override
   Widget build(BuildContext context) {
@@ -186,54 +170,54 @@ class _MyHomePageState2 extends State<MyHomePage2> {
 
                           Padding(
                               padding: EdgeInsets.only(left:0.0, top: 32.0, bottom: 0.0),
-                            child: SingleChildScrollView(
+                              child: SingleChildScrollView(
                                 scrollDirection: Axis.horizontal,
-                              child: Row(
-                                children: <Widget>[
+                                child: Row(
+                                  children: <Widget>[
 
-                                  Padding(
-                                    padding: EdgeInsets.only(left: 4, bottom: 16.0, right: 4.0),
-                                    child: Text(
-                                      'Synopsis',
-                                      style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 16.0, fontWeight: FontWeight.bold),
+                                    Padding(
+                                      padding: EdgeInsets.only(left: 4, bottom: 16.0, right: 4.0),
+                                      child: Text(
+                                        'Synopsis',
+                                        style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 16.0, fontWeight: FontWeight.bold),
+                                      ),
                                     ),
-                                  ),
 
-                                  Padding(
-                                    padding: EdgeInsets.only(left: 4, bottom: 16.0, right: 4.0),
-                                    child: Text(
-                                      '|',
-                                      style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 25.0),
+                                    Padding(
+                                      padding: EdgeInsets.only(left: 4, bottom: 16.0, right: 4.0),
+                                      child: Text(
+                                        '|',
+                                        style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 25.0),
+                                      ),
                                     ),
-                                  ),
 
-                                  Padding(
-                                    padding: EdgeInsets.only(left: 4, bottom: 16.0, right: 4.0),
-                                    child: Text(
-                                      'Cast',
-                                      style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 16.0, fontWeight: FontWeight.bold),
+                                    Padding(
+                                      padding: EdgeInsets.only(left: 4, bottom: 16.0, right: 4.0),
+                                      child: Text(
+                                        'Cast',
+                                        style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 16.0, fontWeight: FontWeight.bold),
+                                      ),
                                     ),
-                                  ),
 
-                                  Padding(
-                                    padding: EdgeInsets.only(left: 4, bottom: 16.0, right: 4.0),
-                                    child: Text(
-                                      '|',
-                                      style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 25.0),
+                                    Padding(
+                                      padding: EdgeInsets.only(left: 4, bottom: 16.0, right: 4.0),
+                                      child: Text(
+                                        '|',
+                                        style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 25.0),
+                                      ),
                                     ),
-                                  ),
 
-                                  Padding(
-                                    padding: EdgeInsets.only(left: 4, bottom: 16.0, right: 4.0),
-                                    child: Text(
-                                      'Rewards',
-                                      style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 16.0, fontWeight: FontWeight.bold),
+                                    Padding(
+                                      padding: EdgeInsets.only(left: 4, bottom: 16.0, right: 4.0),
+                                      child: Text(
+                                        'Rewards',
+                                        style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 16.0, fontWeight: FontWeight.bold),
+                                      ),
                                     ),
-                                  ),
 
-                                ],
-                              ),
-                            )
+                                  ],
+                                ),
+                              )
                           ),
 
                           Padding(
@@ -261,11 +245,11 @@ class _MyHomePageState2 extends State<MyHomePage2> {
                             scrollDirection: Axis.horizontal,
                             child: Row(
                               children: <Widget>[
-                                BottomCard(image: 'images/poster_1.jpg',title: 'Averngers Infinity War',),
+                                SmallCard(image: 'images/poster_1.jpg',title: 'Averngers Infinity War',),
                                 SizedBox(width: 16.0,),
-                                BottomCard(image: 'images/poster_2.jpg', title: 'Black Panther',),
+                                SmallCard(image: 'images/poster_2.jpg', title: 'Black Panther',),
                                 SizedBox(width: 16.0,),
-                                BottomCard(image: 'images/poster_3.jpg',title: 'Maze Runner',),
+                                SmallCard(image: 'images/poster_3.jpg',title: 'Maze Runner',),
                               ],
                             ),
                           )
@@ -283,20 +267,20 @@ class _MyHomePageState2 extends State<MyHomePage2> {
 
 
       bottomNavigationBar: BottomAppBar(
+        elevation: 0.0,
+        color: Colors.black,
+        child: MaterialButton(
           elevation: 0.0,
-          color: Colors.black,
-          child: MaterialButton(
-            elevation: 0.0,
-            color: Colors.blue,
-            child: SizedBox(
-              width: double.infinity,
-              child: new Text("Book Now",
-                textAlign: TextAlign.center,
-                style: new TextStyle(fontFamily: 'VarelaRound-Regular', color:  Colors.white, fontSize: 16),
-              ),
+          color: Colors.blue,
+          child: SizedBox(
+            width: double.infinity,
+            child: new Text("Book Now",
+              textAlign: TextAlign.center,
+              style: new TextStyle(fontFamily: 'VarelaRound-Regular', color:  Colors.white, fontSize: 16),
             ),
-            onPressed: (){},
           ),
+          onPressed: (){},
+        ),
       ),
 
 
