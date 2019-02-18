@@ -37,8 +37,16 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
+  assets:
+  - images/demo_image_1.jpg
+  - images/poster_1.jpg
+  - images/poster_2.jpg
+  - images/poster_3.jpg
+  - images/poster_4.jpg
+  - images/poster_5.jpg
+  - images/poster_6.jpg
+  - images/menu.png
+
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -59,7 +67,10 @@ flutter:
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
-  #     fonts:
+  fonts:
+  - family: VarelaRound-Regular
+    fonts:
+    - asset: fonts/VarelaRound-Regular.ttf
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
