@@ -4,10 +4,10 @@ A Flutter application made by Lebogang which demonstrates how to create your own
 
 <div class="row">
   <div class="column">
-    <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg" alt="Snow" style="width:100%">
+    <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg" alt="Snow" width="210" height="400">
   </div>
   <div class="column">
-    <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC2.jpg" alt="Forest" style="width:100%">
+    <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC2.jpg" alt="Forest" width="210" height="400">
   </div>
 </div>
 
