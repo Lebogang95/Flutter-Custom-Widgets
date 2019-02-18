@@ -6,6 +6,12 @@ Screenshot 1             |  Screenshot 2
 :-------------------------:|:-------------------------:
 <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg"  width="210" height="400">  | <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC2.jpg"  width="210" height="400">
 
+<p float="left">
+  <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg" width="100" />
+  <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg" width="100" /> 
+  <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg" width="100" />
+</p>
+
 ## Setup Guidlines
 ### Android
 
