@@ -4,19 +4,7 @@ A Flutter application made by Lebogang which demonstrates how to create your own
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg)  |  ![](https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg)
-
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg" alt="Snow" width="210" height="400">
-  </div>
-  <div class="column">
-    <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC2.jpg" alt="Forest" width="210" height="400">
-  </div>
-</div>
-
-<img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg"  width="210" height="400">
-<img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC2.jpg"  width="210" height="400">
+![](https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg width="210" height="400")  |  ![](https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg width="210" height="400")
 
 ## Setup Guidlines
 ### Android
