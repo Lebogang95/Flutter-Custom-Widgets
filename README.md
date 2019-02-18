@@ -2,7 +2,16 @@
 
 A Flutter application made by Lebogang which demonstrates how to create your own custom Flutter widgets to reuse across your app. This promotes code reusability & a cleaner project with maintable classes. Not only that but it improves on development time. This is due to the fact that you will spend less time creating many instances of the same widget.
 
-<div class="column">
+.row {
+  display: flex;
+  padding: 0 -8px;
+  border: 1px solid black;
+}
+.row img {
+  margin: 0 8px;
+}
+
+<div class="row">
   <div class="column">
     <img src="https://github.com/Lebogang95/Flutter-Custom-Widgets/blob/master/images/SC1.jpg" alt="Snow" width="210" height="400">
   </div>
