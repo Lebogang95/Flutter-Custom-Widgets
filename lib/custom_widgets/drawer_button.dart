@@ -29,7 +29,6 @@ class _DrawerButton extends State<DrawerButton> {
               image: new DecorationImage(
                   image: new AssetImage('images/menu.png'),
                   fit: BoxFit.fitWidth
-
               ),
             ),
           ),

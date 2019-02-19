@@ -2,7 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_widget/custom_widgets/drawer_button.dart';
 import 'package:flutter_custom_widget/custom_widgets/small_card.dart';
-import 'package:flutter_custom_widget/custom_widgets/custom_drawer.dart';
+import 'package:flutter_custom_widget/custom_widgets/drawer.dart';
 import 'package:flutter_custom_widget/custom_widgets/large_card.dart';
 import 'package:flutter_custom_widget/utils/gradient_backdrop.dart';
 
@@ -53,8 +53,7 @@ class _HomePageState extends State<HomePage> {
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
-                                  Text('Now Showing', style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 24.0, fontWeight: FontWeight.bold),
-                                  ),
+                                  Text('Now Showing', style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 24.0, fontWeight: FontWeight.bold),),
                                   Text('View All', style: new TextStyle(fontFamily: 'VarelaRound-Regular',color: Colors.white, fontSize: 12.0, fontWeight: FontWeight.bold),
                                   ),
                                 ],

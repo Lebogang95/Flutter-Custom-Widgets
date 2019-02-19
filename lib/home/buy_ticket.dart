@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_widget/custom_widgets/small_card.dart';
-import 'package:flutter_custom_widget/custom_widgets/custom_drawer.dart';
+import 'package:flutter_custom_widget/custom_widgets/drawer.dart';
 import 'package:flutter_custom_widget/custom_widgets/large_card.dart';
 
 var _scaffoldKey = new GlobalKey<ScaffoldState>();
