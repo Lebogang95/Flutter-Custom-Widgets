@@ -4,7 +4,7 @@ import 'package:flutter_custom_widget/custom_widgets/drawer_button.dart';
 import 'package:flutter_custom_widget/custom_widgets/small_card.dart';
 import 'package:flutter_custom_widget/custom_widgets/drawer.dart';
 import 'package:flutter_custom_widget/custom_widgets/large_card.dart';
-import 'package:flutter_custom_widget/utils/gradient_backdrop.dart';
+import 'package:flutter_custom_widget/utils/gradient_backdrop_1.dart';
 
 var _scaffoldKey = new GlobalKey<ScaffoldState>();
 
@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
         children: <Widget>[
 
           /// Custom gradient backdrop which I constructed. It can be customised easily using one line of code and it can be used across the entire app if you want the effect
-          GradientBackdrop(hexColor_1: Colors.black12, hexColor_2: Colors.black87, imagePath: 'images/demo_image_1.jpg',),
+          GradientBackdrop_1(hexColor_1: Colors.black12, hexColor_2: Colors.black87, imagePath: 'images/demo_image_1.jpg',),
 
           new Padding(
               padding: EdgeInsets.only(left: 16.0, right: 16.0, bottom: 0.0),

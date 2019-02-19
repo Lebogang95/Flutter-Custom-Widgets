@@ -1,9 +1,11 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_custom_widget/custom_widgets/rating_star.dart';
 import 'package:flutter_custom_widget/custom_widgets/small_card.dart';
 import 'package:flutter_custom_widget/custom_widgets/drawer.dart';
 import 'package:flutter_custom_widget/custom_widgets/large_card.dart';
+import 'package:flutter_custom_widget/utils/gradient_backdrop_2.dart';
 
 var _scaffoldKey = new GlobalKey<ScaffoldState>();
 
@@ -28,36 +30,8 @@ class _MyHomePageState2 extends State<BuyTicketPage> {
       body: new Stack(
 
         children: <Widget>[
-          new ConstrainedBox(
-            constraints: const BoxConstraints.expand(),
-            //child: new FlutterLogo(),
-            //child: Image.asset('images/background.jpg'),
-            child: DecoratedBox(
-              decoration: new BoxDecoration(
-                image: new DecorationImage(
-                    image: new AssetImage('images/poster_2.jpg'),
-                    fit: BoxFit.cover
 
-                ),
-              ),
-            ),
-          ),
-
-
-          Container(
-            decoration: BoxDecoration(
-                color: Colors.white,
-                gradient: LinearGradient(
-                    begin: FractionalOffset.topCenter,
-                    end: FractionalOffset.bottomCenter,
-                    colors: [
-                      Colors.black45,
-                      Colors.black,
-                    ],
-                    stops: [0.0,0.5]
-                )
-            ),
-          ),
+          GradientBackdrop_2(hexColor_1: Colors.black12, hexColor_2: Colors.black, imagePath: 'images/poster_2.jpg',),
 
           new Padding(padding: EdgeInsets.only(left: 16.0, right: 16.0, bottom: 0.0),
               child: SingleChildScrollView(
@@ -114,37 +88,11 @@ class _MyHomePageState2 extends State<BuyTicketPage> {
                             padding: EdgeInsets.only(left:0.0, top: 0.0, bottom: 16.0),
                             child: Row(
                               children: <Widget>[
-
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.yellow,
-                                  size: 14.0,
-                                ),
-
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.yellow,
-                                  size: 14.0,
-                                ),
-
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.yellow,
-                                  size: 14.0,
-                                ),
-
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.grey,
-                                  size: 14.0,
-                                ),
-
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.grey,
-                                  size: 14.0,
-                                ),
-
+                                RatingStar(hexColor: Colors.yellow,),
+                                RatingStar(hexColor: Colors.yellow,),
+                                RatingStar(hexColor: Colors.yellow,),
+                                RatingStar(hexColor: Colors.yellow,),
+                                RatingStar(hexColor: Colors.grey,),
                               ],
                             ),
                           ),

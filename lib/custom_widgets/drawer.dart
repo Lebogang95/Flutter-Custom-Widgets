@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_custom_widget/custom_widgets/drawer_menu_button.dart';
 import 'package:flutter_custom_widget/custom_widgets/horizontal_divider.dart';
 import 'package:flutter_custom_widget/home/buy_ticket.dart';
-import 'package:flutter_custom_widget/utils/gradient_backdrop.dart';
+import 'package:flutter_custom_widget/utils/gradient_backdrop_1.dart';
 
 class CustomDrawer extends StatefulWidget {
 
@@ -43,7 +43,7 @@ class _CustomDrawer extends State<CustomDrawer> {
                 child: new Stack(
                     children: <Widget>[
 
-                      GradientBackdrop(hexColor_1: Colors.black12, hexColor_2: Colors.black87, imagePath: 'images/demo_image_1.jpg',),
+                      GradientBackdrop_1(hexColor_1: Colors.black12, hexColor_2: Colors.black87, imagePath: 'images/demo_image_1.jpg',),
 
                       ListView(
 

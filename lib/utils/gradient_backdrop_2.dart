@@ -2,13 +2,13 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-class GradientBackdrop extends StatefulWidget {
+class GradientBackdrop_2 extends StatefulWidget {
 
   final String imagePath;
   final Color hexColor_1;
   final Color hexColor_2;
 
-  GradientBackdrop({
+  GradientBackdrop_2({
     Key key,
     @required this.hexColor_1,
     @required this.hexColor_2,
@@ -16,7 +16,7 @@ class GradientBackdrop extends StatefulWidget {
   }) : super(key:key);
 
   @override
-  State createState() => _GradientBackdrop(
+  State createState() => _GradientBackdrop_2(
       hexColor_1: hexColor_1,
       hexColor_2: hexColor_2,
       imagePath: imagePath
@@ -24,9 +24,9 @@ class GradientBackdrop extends StatefulWidget {
 
 }
 
-class _GradientBackdrop extends State<GradientBackdrop> {
+class _GradientBackdrop_2 extends State<GradientBackdrop_2> {
 
-  _GradientBackdrop({Key key,
+  _GradientBackdrop_2({Key key,
     this.hexColor_1,
     this.hexColor_2,
     this.imagePath
@@ -63,13 +63,13 @@ class _GradientBackdrop extends State<GradientBackdrop> {
                   begin: FractionalOffset.topCenter,
                   end: FractionalOffset.bottomCenter,
                   colors: [
-                    Colors.black12,
-                    Colors.black87,
+                    hexColor_1,
+                    hexColor_2
                   ],
-                  stops: [0.0,0.8]
+                  stops: [0.0,0.5]
               )
           ),
-        )
+        ),
 
       ],
     );
