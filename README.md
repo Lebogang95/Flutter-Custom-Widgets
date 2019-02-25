@@ -15,4 +15,4 @@ No setup is required for the Android project. Just download the apk using the li
 
 ### iOS
 
-To run the iOS project you need a Macbook with the latest version of Xcode installed as well as Android Studio. In the future there will be a Test Flight link.
+To run the iOS project you need a Macbook with the latest version of Xcode installed as well as Android Studio. In addition you will need to setup the Flutter environment. In the future there will be a Test Flight link.
